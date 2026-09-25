@@ -8,7 +8,7 @@ document.getElementById('btnDatos').addEventListener('click', function () {
   const nombre   = 'Miliani Karley Chandomi Palacios';
   const matricula = '100025245';
   const carrera  = 'Licenciatura en Sistemas Computacionales';
-  const semestre = 6;
+  const semestre = 5;
 
   const parDatos = document.getElementById('parDatos');
   parDatos.textContent = `Alumno: ${nombre} — Matrícula: ${matricula} — Carrera: ${carrera} — Semestre: ${semestre}`;
